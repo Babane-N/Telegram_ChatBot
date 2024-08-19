@@ -1,0 +1,285 @@
+[
+    {
+        "user_query": "I can't log into my account. What should I do?",
+        "bot_response": "Sorry to hear that! Please ensure you're using the correct username and password. If you've forgotten your password, you can reset it by clicking 'Forgot Password' on the login screen."
+    },
+    {
+        "user_query": "How do I reset my password?",
+        "bot_response": "To reset your password, click on 'Forgot Password' on the login page. You'll receive an email with instructions on how to reset it."
+    },
+    {
+        "user_query": "My game keeps crashing. How can I fix this?",
+        "bot_response": "I understand how frustrating that can be. Try updating your graphics drivers and ensure your game is fully updated. If the problem persists, try lowering the graphics settings or reinstalling the game."
+    },
+    {
+        "user_query": "Where can I purchase in-game currency?",
+        "bot_response": "You can purchase in-game currency through the in-game store. Simply open the store, select the currency pack you want, and follow the payment instructions."
+    },
+    {
+        "user_query": "Is there a way to recover my deleted character?",
+        "bot_response": "I'm sorry, but once a character is deleted, it's usually permanent. However, you can contact our support team with your account details, and we'll see if there's anything we can do."
+    },
+    {
+        "user_query": "Can I transfer my account to another server?",
+        "bot_response": "Account transfers are possible in certain cases. Please visit the 'Account Management' section on our website for details or contact support if you need further assistance."
+    },
+    {
+        "user_query": "What are the system requirements for your latest game?",
+        "bot_response": "Our latest game requires at least a 64-bit processor, 8 GB of RAM, and a DirectX 11 compatible GPU. For the best experience, we recommend a higher-end system."
+    },
+    {
+        "user_query": "I encountered a bug in the game. How can I report it?",
+        "bot_response": "Thank you for helping us improve the game! You can report bugs through the in-game 'Support' option or visit our forums to provide details."
+    },
+    {
+        "user_query": "Can I get a refund for a game I purchased?",
+        "bot_response": "Refunds are available within 14 days of purchase, provided you've played less than 2 hours of the game. You can request a refund through our 'Purchase History' section."
+    },
+    {
+        "user_query": "How do I join the beta testing program?",
+        "bot_response": "We appreciate your interest in beta testing! You can sign up for beta access on our website under the 'Beta Testing' section."
+    },
+    {
+        "user_query": "Are there any upcoming events in the game?",
+        "bot_response": "Yes, we have several events planned! Check the 'Events' tab in-game or visit our website's 'Community' section for more details."
+    },
+    {
+        "user_query": "My in-game purchase didn't go through, but I was charged. What should I do?",
+        "bot_response": "I'm sorry for the inconvenience. Please contact our support team with your transaction ID, and we'll resolve the issue as quickly as possible."
+    },
+    {
+        "user_query": "How do I update the game to the latest version?",
+        "bot_response": "To update the game, open your game launcher and it should automatically check for updates. If it doesn’t, you can manually check for updates in the settings."
+    },
+    {
+        "user_query": "Can I change my in-game username?",
+        "bot_response": "You can change your in-game username in the 'Account Settings' section. Note that there's usually a cooldown period between name changes."
+    },
+    {
+        "user_query": "How can I contact a moderator in-game?",
+        "bot_response": "If you need to report an issue or contact a moderator, use the in-game 'Report' function or message a moderator directly through the community chat."
+    },
+    {
+        "user_query": "I was banned from the game. Can I appeal?",
+        "bot_response": "If you believe the ban was a mistake, you can submit an appeal through our support page. Provide as much detail as possible to help us review your case."
+    },
+    {
+        "user_query": "How can I improve my game performance?",
+        "bot_response": "To improve game performance, try lowering the graphics settings, closing background applications, and ensuring your hardware drivers are up to date."
+    },
+    {
+        "user_query": "Do you offer support in other languages?",
+        "bot_response": "Yes, we offer support in multiple languages. You can change the language in the support options or select your preferred language on our website."
+    },
+    {
+        "user_query": "What should I do if my game is running slowly?",
+        "bot_response": "If your game is running slowly, try adjusting the graphics settings, closing other applications, and ensuring your system meets the minimum requirements."
+    },
+    {
+        "user_query": "Can I gift in-game items to my friends?",
+        "bot_response": "Yes, you can gift items to friends through the in-game store. Select the item, choose 'Gift', and enter your friend's username."
+    },
+    {
+        "user_query": "Are there any cheats or hacks allowed in the game?",
+        "bot_response": "Cheating or hacking is strictly prohibited and can result in a permanent ban. We encourage fair play to ensure everyone enjoys the game."
+    },
+    {
+        "user_query": "How do I enable parental controls?",
+        "bot_response": "To enable parental controls, go to 'Account Settings' and select 'Parental Controls'. You can set restrictions on purchases, playtime, and content."
+    },
+    {
+        "user_query": "Can I play the game offline?",
+        "bot_response": "Some features may be available offline, but for the full experience, an internet connection is required."
+    },
+    {
+        "user_query": "How can I join a clan or guild in the game?",
+        "bot_response": "To join a clan or guild, open the 'Community' tab in-game and search for a group that interests you. You can apply to join directly from there."
+    },
+    {
+        "user_query": "What do I do if my game won't start?",
+        "bot_response": "If your game won’t start, try verifying the game files through your launcher, updating your drivers, or reinstalling the game."
+    },
+    {
+        "user_query": "Where can I find guides or tutorials for the game?",
+        "bot_response": "You can find game guides and tutorials on our website, in the 'Help' section, or on community forums where players share tips and strategies."
+    },
+    {
+        "user_query": "How do I report a toxic player?",
+        "bot_response": "To report a toxic player, use the in-game reporting system. Go to their profile, select 'Report', and provide details of the incident."
+    },
+    {
+        "user_query": "Are there any special offers or discounts available?",
+        "bot_response": "Yes, we frequently have special offers and discounts. Keep an eye on the in-game store or subscribe to our newsletter for updates."
+    },
+    {
+        "user_query": "Can I stream the game on Twitch?",
+        "bot_response": "Absolutely! We love seeing our community stream. Just make sure to follow our community guidelines while streaming."
+    },
+    {
+        "user_query": "What can I do if I'm experiencing lag in the game?",
+        "bot_response": "If you're experiencing lag, try connecting to a different server, closing other applications, or lowering the game's graphics settings."
+    },
+    {
+        "user_query": "How do I link my game account to social media?",
+        "bot_response": "You can link your game account to social media platforms like Facebook and Twitter through the 'Account Settings' under 'Linked Accounts'."
+    }
+]
+[
+    {
+        "user_query": "I forgot my security question answers. What should I do?",
+        "bot_response": "If you've forgotten your security question answers, please contact our support team directly. They will help verify your identity and assist you with account recovery."
+    },
+    {
+        "user_query": "Can I play with friends on different platforms?",
+        "bot_response": "Yes, our game supports cross-platform play! You can team up with friends regardless of whether they're on PC, console, or mobile."
+    },
+    {
+        "user_query": "How do I customize my character?",
+        "bot_response": "To customize your character, go to the 'Customization' menu in-game. You can change outfits, accessories, and other appearance options there."
+    },
+    {
+        "user_query": "What are the supported payment methods?",
+        "bot_response": "We accept various payment methods including credit/debit cards, PayPal, and some regional options. You can view all available payment methods at checkout."
+    },
+    {
+        "user_query": "I can't hear any sound in the game. How do I fix this?",
+        "bot_response": "First, check your sound settings in the game and ensure your device's volume is turned up. If that doesn't work, try restarting the game or checking your audio drivers."
+    },
+    {
+        "user_query": "How do I change the language in the game?",
+        "bot_response": "To change the language, go to the 'Settings' menu, select 'Language', and choose your preferred option. The game will restart with the new language settings."
+    },
+    {
+        "user_query": "Is my progress saved automatically?",
+        "bot_response": "Yes, your progress is saved automatically at regular intervals. You can also manually save your progress from the game's main menu."
+    },
+    {
+        "user_query": "How do I report a bug in the beta version?",
+        "bot_response": "We appreciate your help in improving the game! You can report bugs in the beta version through the 'Feedback' option in the main menu."
+    },
+    {
+        "user_query": "What happens if I lose connection during a match?",
+        "bot_response": "If you lose connection during a match, the game will attempt to reconnect you. If it can't, you'll be returned to the main menu, and your stats may not be recorded for that match."
+    },
+    {
+        "user_query": "Can I transfer my game progress to another device?",
+        "bot_response": "Yes, you can transfer your game progress to another device by linking your account to a cloud service or social media. Make sure to log in with the same account on the new device."
+    },
+    {
+        "user_query": "How do I access downloadable content (DLC) I purchased?",
+        "bot_response": "Once you've purchased DLC, it should be available in your game automatically. If you don't see it, try restarting the game or checking the 'Downloads' section."
+    },
+    {
+        "user_query": "What can I do if the game is stuck on the loading screen?",
+        "bot_response": "If the game is stuck on the loading screen, try closing and reopening the game. If the issue persists, check for any updates or reinstall the game."
+    },
+    {
+        "user_query": "How do I view my game stats and achievements?",
+        "bot_response": "You can view your game stats and achievements in the 'Profile' section of the main menu. There, you'll find detailed information on your performance and milestones."
+    },
+    {
+        "user_query": "How do I participate in the in-game chat?",
+        "bot_response": "To participate in the in-game chat, press the chat icon or the assigned key on your keyboard. You can join different channels to talk to your team, friends, or the community."
+    },
+    {
+        "user_query": "What is the best way to secure my account?",
+        "bot_response": "For the best account security, enable two-factor authentication (2FA) and use a strong, unique password. Avoid sharing your account details with anyone."
+    },
+    {
+        "user_query": "Can I change my payment method after a purchase?",
+        "bot_response": "Unfortunately, once a purchase is made, the payment method can't be changed. However, you can select a different payment method for future purchases."
+    },
+    {
+        "user_query": "Are there any parental controls in the game?",
+        "bot_response": "Yes, we offer parental controls to restrict in-game purchases, chat features, and playtime. You can set these up in the 'Parental Controls' section of the settings."
+    },
+    {
+        "user_query": "How can I follow hELO on social media?",
+        "bot_response": "You can follow us on social media platforms like Twitter, Facebook, and Instagram for the latest news, updates, and community events."
+    },
+    {
+        "user_query": "Can I download the game on multiple devices?",
+        "bot_response": "Yes, you can download the game on multiple devices as long as you're logged in with the same account. Your progress will be synced across devices."
+    },
+    {
+        "user_query": "What do I do if my game keeps freezing?",
+        "bot_response": "If your game keeps freezing, try lowering the graphics settings, closing unnecessary programs, and ensuring your system meets the game's requirements."
+    },
+    {
+        "user_query": "How do I upgrade my account to premium?",
+        "bot_response": "To upgrade to a premium account, visit the 'Account' section in the main menu and select 'Upgrade'. Follow the instructions to complete the purchase."
+    },
+    {
+        "user_query": "Where can I find the latest patch notes?",
+        "bot_response": "You can find the latest patch notes on our website under the 'Updates' section or in the game launcher under 'News'."
+    },
+    {
+        "user_query": "How do I invite friends to play with me?",
+        "bot_response": "To invite friends, go to the 'Friends' menu, select 'Invite', and choose the friends you want to play with. You can send them a game invite directly."
+    },
+    {
+        "user_query": "Is there a way to earn in-game currency without buying it?",
+        "bot_response": "Yes, you can earn in-game currency by completing daily quests, participating in events, and leveling up your character."
+    },
+    {
+        "user_query": "What should I do if my game is running in slow motion?",
+        "bot_response": "If your game is running in slow motion, try adjusting the graphics settings or updating your graphics drivers. Restarting your device may also help."
+    },
+    {
+        "user_query": "How do I delete my game account?",
+        "bot_response": "If you want to delete your account, please contact our support team. Note that this action is permanent and cannot be undone."
+    },
+    {
+        "user_query": "What should I do if my controller isn't working with the game?",
+        "bot_response": "Make sure your controller is properly connected and recognized by your device. Check the in-game controller settings to ensure it's configured correctly."
+    },
+    {
+        "user_query": "Can I create multiple characters on one account?",
+        "bot_response": "Yes, you can create multiple characters on one account. Simply select 'Create New Character' from the main menu."
+    },
+    {
+        "user_query": "How do I join a game session with friends?",
+        "bot_response": "To join a game session with friends, select 'Join Game' from the main menu and choose your friend's game session from the list."
+    },
+    {
+        "user_query": "How can I participate in seasonal events?",
+        "bot_response": "Seasonal events are announced in-game and on our website. To participate, simply log in during the event period and follow the instructions provided."
+    },
+    {
+        "user_query": "What is the difference between standard and deluxe editions of the game?",
+        "bot_response": "The deluxe edition usually includes extra content like DLC, in-game items, and exclusive skins. Check the 'Editions' section on our website for more details."
+    },
+    {
+        "user_query": "How do I unlock special abilities for my character?",
+        "bot_response": "Special abilities can be unlocked by leveling up your character and completing specific quests. Check your character's skill tree for more information."
+    },
+    {
+        "user_query": "What should I do if the game is not available in my region?",
+        "bot_response": "If the game isn't available in your region, you can try using a VPN to access it. However, this may violate our terms of service, so proceed with caution."
+    },
+    {
+        "user_query": "Can I play the game on a tablet or mobile device?",
+        "bot_response": "Yes, the game is available on mobile devices. Check the app store on your device for availability and download instructions."
+    },
+    {
+        "user_query": "How do I enable voice chat in the game?",
+        "bot_response": "To enable voice chat, go to the 'Settings' menu, select 'Audio', and turn on voice chat. Make sure your microphone is connected and properly configured."
+    },
+    {
+        "user_query": "Where can I find tips and tricks for beginners?",
+        "bot_response": "You can find tips and tricks for beginners on our website, in the 'Guides' section, or by watching tutorials on our official YouTube channel."
+    },
+    {
+        "user_query": "What should I do if my game is not recognized by the launcher?",
+        "bot_response": "If your game isn't recognized by the launcher, try reinstalling the game or manually adding it to the launcher through the 'Games' menu."
+    },
+    {
+        "user_query": "Can I merge two accounts into one?",
+        "bot_response": "Merging accounts isn't supported at this time. We recommend choosing one account to continue playing on to avoid losing progress."
+    },
+    {
+        "user_query": "How do I participate in a game tournament?",
+        "bot_response": "To participate in a tournament, check the 'Events' section in-game or on our website for upcoming tournaments. Follow the registration instructions to join."
+    }
+]
+
