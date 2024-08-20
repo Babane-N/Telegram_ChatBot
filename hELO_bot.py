@@ -2,8 +2,12 @@
 
 import spacy
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
+import logging
+import traceback
+
 
 nlp = spacy.load('en_core_web_md')
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 with open('hELO_Support.txt', 'r', encoding='utf-8') as file:
     Support_text = file.read()
 Support_doc = nlp(Support_text)
@@ -35,7 +39,8 @@ async def state0_handler(update, context):
         else:
             await update.message.reply_text("Sorry, I couldn't find a relevant response")
     except:
-        await update.message.reply_text("An unexpected error occurred. Please try again later.")
+            logging.error(traceback.format_exc())
+            await update.message.reply_text("An unexpected error occurred. Please try again later.")
 
     return 'STATE0'
 
@@ -74,3 +79,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
