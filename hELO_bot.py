@@ -3,9 +3,7 @@
 import spacy
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
 
-
 nlp = spacy.load('en_core_web_md')
-
 with open('hELO_Support.txt', 'r', encoding='utf-8') as file:
     Support_text = file.read()
 Support_doc = nlp(Support_text)
@@ -14,29 +12,37 @@ Support_doc = nlp(Support_text)
 def train_bot(user_doc, Support_doc):
     """Find a relevant section in the document based on the user's input."""
     most_similar_section = None
-    highest_similarity = 0
+    highest_similarity = -1
 
     for sent in Support_doc.sents:
         similarity = user_doc.similarity(sent)
         if similarity > highest_similarity:
             highest_similarity = similarity
             most_similar_section = sent.text
+    if highest_similarity < 0.5:
+        return "I'm not sure I understand your question. Could you please clarify?"
     return most_similar_section
 
 
 async def state0_handler(update, context):
-    """Handle user input in state0 using SpaCy."""
-    user_text = update.message.text
-    user_doc = nlp(user_text)
-    reply = train_bot(user_doc, Support_doc)
-    if reply:
-        await update.message.reply_text(reply)
+    """if there's a question mark, then it's a question!"""
+    try:
+        user_text = update.message.text
+        user_doc = nlp(user_text)
+        reply = train_bot(user_doc, Support_doc)
+        if reply:
+          await update.message.reply_text(reply)
+        else:
+            await update.message.reply_text("Sorry, I couldn't find a relevant response")
+    except:
+        await update.message.reply_text("An unexpected error occurred. Please try again later.")
+
     return 'STATE0'
 
 
 async def start(update, context):
     """Start the conversation with a welcome message."""
-    await update.message.reply_text("Hi! I am your bot. How may I be of service?")
+    await update.message.reply_text("Hi! Welcome to hELO Tech support service. How can we help you?")
     return 'STATE0'
 
 
